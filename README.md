@@ -1,4 +1,4 @@
-# C6 Bank desafio - Codeboost
+# C6 Bank challenge - Codeboost
 
 ## WireFrame
 
