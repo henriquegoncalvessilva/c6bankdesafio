@@ -2,9 +2,13 @@
 
 ## WireFrame
 
+#### [Go to the Wireframe ](https://henriquegoncalvessilva.github.io/c6bankdesafio/prototype/index.html)
+
 ![alt text](https://i.ibb.co/9VVc7nm/image.png)
 
 ## Prototype
+
+#### [Go to the Prototype ](https://henriquegoncalvessilva.github.io/c6bankdesafio/wireframe/index.html)
 
 ![alt text](https://i.ibb.co/DLpqsvv/image.png)
 
