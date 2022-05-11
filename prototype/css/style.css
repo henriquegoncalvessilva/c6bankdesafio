@@ -1,0 +1,494 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Montserrat:wght@500;700&display=swap");
+body {
+  background-color: #242424;
+}
+
+/* Style Header */
+
+header {
+  width: 100%;
+  margin-top: 3.8rem;
+  margin-bottom: 11.8rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-scroll {
+  position: fixed;
+  top: -3.8rem;
+  left: 0;
+  color: black;
+  padding: 2.4rem 31.7rem;
+  display: none;
+}
+
+.s-hero .container nav ul li {
+  font-family: "Inter";
+  font-size: 1.8rem;
+  line-height: 150%;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.s-hero .container .btn-primary {
+  background: var(--yellow-colors);
+  border-radius: 10rem;
+  font-family: "Montserrat";
+  font-size: 1.5rem;
+  line-height: 1.8rem;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  padding: 1.1rem 5rem;
+  color: #242424;
+}
+
+.s-hero .container .btn-primary:hover {
+  animation: btn-anim 1s ease 0s infinite alternate-reverse forwards;
+}
+
+.s-hero .container .text .btn-primary-outline {
+  border: 1px solid #ffffff;
+  border-radius: 10rem;
+  font-family: "Montserrat";
+  font-size: 1.5rem;
+  line-height: 1.8rem;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  padding: 1.1rem 3.95rem;
+  color: white;
+}
+.s-hero .container .text .btn-primary-outline:hover {
+  animation: btn-anim 1s ease 0s infinite alternate-reverse forwards;
+}
+
+header ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4.8rem;
+}
+
+header ul li {
+  display: flex;
+}
+
+header ul li img {
+  margin-left: 1rem;
+}
+
+/* Style S-hero */
+
+.s-hero {
+  background: url(../img/img-bg.png) no-repeat center center;
+  background-size: cover;
+}
+
+.s-hero .container {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.s-hero .container .text {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  max-width: 68.1rem;
+  margin-bottom: 16.2rem;
+}
+
+.s-hero .container .text .text-title {
+  display: flex;
+  gap: 1.6rem;
+  align-items: center;
+  justify-content: flex-start;
+  font-family: "Inter";
+  font-style: normal;
+  font-size: 1.4rem;
+  line-height: 1.7rem;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.s-hero .container .text .title {
+  margin-top: 1.7rem;
+  margin-bottom: 2.4rem;
+  font-family: "Montserrat";
+  font-weight: 700;
+  font-size: 4.8rem;
+  line-height: 130%;
+  color: #ffffff;
+  width: 100%;
+  max-width: 74rem;
+}
+
+.s-hero .container .text .subtitle {
+  margin-bottom: 4.8rem;
+  font-family: "Inter";
+  font-size: 1.8rem;
+  line-height: 150%;
+  max-width: 36.5rem;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.s-hero .container .image {
+  width: 100%;
+  max-width: 48.8rem;
+  height: 49.6rem;
+  background-color: var(--gray--colors-800);
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.s-hero .container .text .text-title span {
+  padding: 0.5rem 1.1rem;
+  background: var(--blue-colors);
+  border-radius: 12rem;
+}
+
+/* Section Values */
+
+.s-values {
+  padding-top: 6.3rem;
+  background: white;
+  padding-bottom: 12.3rem;
+}
+
+.s-values .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.s-values .container .info-header {
+  width: 100%;
+  margin-bottom: 7.1rem;
+}
+
+.s-values .container .info-header .title {
+  font-family: "Montserrat";
+  font-weight: 700;
+  font-size: 4.8rem;
+  line-height: 130%;
+  color: #242424;
+  margin-bottom: 0.8rem;
+}
+.s-values .container .info-header .subtitle {
+  font-family: "Montserrat";
+  font-weight: 500;
+  font-size: 3.2rem;
+  line-height: 130%;
+  color: #242424;
+}
+.s-values .container .items-all {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 100%;
+  max-width: 61.2rem;
+}
+.s-values .container .items-all .item {
+  width: 100%;
+  max-width: 25.6rem;
+}
+.s-values .container .items-all .item .marker-item {
+  width: 1.5rem;
+  height: 0.2rem;
+  background: var(--yellow-colors);
+  display: inline-block;
+}
+.s-values .container .items-all .item:nth-child(2) {
+  margin-bottom: 9rem;
+}
+.s-values .container .items-all .item:nth-child(2) img:hover {
+  animation: creditcar-anim 1s ease 0s infinite alternate-reverse forwards;
+}
+.s-values .container .items-all .item:nth-child(3) {
+  margin-bottom: 9rem;
+}
+.s-values .container .items-all .item:nth-child(3) img:hover {
+  animation: transfer-anim 1s ease 0s 1 alternate-reverse forwards;
+}
+.s-values .container .items-all .item:nth-child(4) img:hover {
+  animation: money-anim 1s ease 0s infinite alternate-reverse forwards;
+}
+.s-values .container .items-all .item:nth-child(5) img:hover {
+  animation: time-anim 2s ease 0s infinite alternate-reverse forwards;
+}
+.s-values .container .items-all .item h3 {
+  font-family: "Montserrat";
+  font-weight: 700;
+  font-size: 1.8rem;
+  line-height: 150%;
+  margin: 1rem 0;
+  width: 20.3rem;
+}
+.s-values .container .items-all .item p {
+  font-family: "Inter";
+  font-size: 1.6rem;
+  line-height: 150%;
+  color: #616161;
+}
+.s-values .container .items-all .item:first-child {
+  width: 25rem;
+}
+
+.s-values .container .items-all .item:last-child p {
+  width: 23.9rem;
+}
+.s-values .container .images-all {
+  display: flex;
+  width: 100%;
+  max-width: 44.9rem;
+  flex-wrap: wrap;
+  gap: 3.1rem;
+  display: none;
+}
+.s-values .container .images-all .image:first-child {
+  filter: drop-shadow(45px 56px 81px rgba(0, 0, 0, 0.25));
+}
+.s-values .container .images-all .image:nth-child(2) {
+  margin-top: -10.5rem;
+}
+.s-values .container .images-all .image:last-child {
+  margin-top: -10.5rem;
+}
+
+/* Section Footer  */
+
+footer {
+  padding-top: 10.9rem;
+  background: white;
+  padding-bottom: 3.8rem;
+  background-color: #fafafa;
+}
+
+footer .container {
+}
+
+footer .container main .header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+footer .container main .header .text .title {
+  font-family: "Montserrat";
+  font-weight: 700;
+  font-size: 4.8rem;
+  line-height: 130%;
+  color: #242424;
+  margin-bottom: 0.8rem;
+}
+
+footer .container main .header .text .subtitle {
+  font-family: "Montserrat";
+  font-weight: 500;
+  font-size: 3.2rem;
+  line-height: 130%;
+  color: #242424;
+}
+footer .container main .header .all-buttons {
+  border: 1px solid #c4c4c4;
+  height: 7.2rem;
+  display: flex;
+  align-items: center;
+  border-radius: 12rem;
+  justify-content: center;
+  width: 59.2rem;
+  gap: 3.2rem;
+}
+footer .container main .header .all-buttons .to-you {
+  background: #242424;
+  color: white;
+  border-radius: 12rem;
+  width: 26.9rem;
+  height: 5.6rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+footer .container main .header .all-buttons .to-business {
+  color: white;
+  border-radius: 12rem;
+  width: 26.9rem;
+  height: 5.6rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: black;
+}
+
+footer .container main .card {
+  background: linear-gradient(98.6deg, #020302 7.61%, #242424 96.26%);
+  width: 100%;
+  height: 42.4rem;
+  margin-top: 9.2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 1.2rem;
+  position: relative;
+}
+
+footer .container main .card .info-card {
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+  align-items: flex-start;
+  width: 34.1rem;
+  height: 22.6rem;
+  margin-left: 10.3rem;
+}
+footer .container main .card .all-images {
+  position: relative;
+  margin-right: 13.6rem;
+}
+
+footer .container main .card .logo-business {
+  position: absolute;
+  right: 7.2rem;
+  bottom: 5.3rem;
+}
+
+footer .container main .card .info-card .to-pay {
+  display: flex;
+  color: white;
+  align-items: center;
+  justify-content: center;
+  gap: 1.6rem;
+  margin-top: 2.4rem;
+}
+footer .container main .card .all-images img:first-child {
+  position: absolute;
+  top: -3.2rem;
+  margin-left: 3.6rem;
+  animation: creditcardblack 2s ease-in-out 0s infinite alternate-reverse
+    forwards;
+}
+footer .container main .card .all-images img:nth-child(2) {
+  margin-top: 7rem;
+}
+footer .container main .card .title {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 2.4rem;
+  line-height: 130%;
+  letter-spacing: -0.03em;
+  color: #ffffff;
+}
+
+footer .container main .card .subtitle {
+  font-family: "Inter";
+  font-size: 1.6rem;
+  line-height: 150%;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+/* Animations */
+@keyframes cards-anim {
+  0% {
+    opacity: 0;
+    transform: translateY(50px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes creditcar-anim {
+  0% {
+    transform: translateY(5);
+  }
+
+  100% {
+    transform: translateY(-5px);
+  }
+}
+@keyframes creditcar-anim {
+  0% {
+    transform: translateX(100px);
+  }
+
+  100% {
+    transform: translateX(0);
+  }
+}
+@keyframes transfer-anim {
+  0% {
+    transform: rotate(0);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+@keyframes money-anim {
+  0% {
+    transform: scale(1.4);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
+@keyframes time-anim {
+  0%,
+  100% {
+    transform: rotate(0deg);
+    transform-origin: 50% 50%;
+  }
+
+  10% {
+    transform: rotate(8deg);
+  }
+
+  20%,
+  40%,
+  60% {
+    transform: rotate(-10deg);
+  }
+
+  30%,
+  50%,
+  70% {
+    transform: rotate(10deg);
+  }
+
+  80% {
+    transform: rotate(-8deg);
+  }
+
+  90% {
+    transform: rotate(8deg);
+  }
+}
+@keyframes btn-anim {
+  0% {
+    transform: scale(1.1);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
+
+@keyframes creditcardblack {
+  0% {
+    transform: translateY(-15px);
+  }
+
+  100% {
+    transform: scale(0px);
+  }
+}
